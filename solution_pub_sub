@@ -1,0 +1,16 @@
+5. set up this file
+
+constructor called pubsub, {object
+  function takes in a channel name and a payload
+    create new event CustomEvent taking in the channel and
+      an {object with properties e.g. all the data}
+
+    trigger (dispatch) the event defined above
+
+
+    subscribe function takes channel and a function (callback)
+      add an event listener (taking a channel and the event)
+
+
+
+export this to ensure the other files can see it

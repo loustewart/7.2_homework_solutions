@@ -1,0 +1,54 @@
+details_view
+
+15. require in the PubSub
+
+16. create the constructor
+
+
+
+17. create the bindEvents
+      subscribe to the channel for the family data
+      display the data (render) the details (see render function 21)
+
+
+
+
+21. render function
+      rendering to the div #family-info from the html file
+      could add a separate header using family.name
+      create a list
+
+      21a. data to display for the description paragraph
+      22a. data to display as a title for the list
+
+      21b. ensures the data replaces not adds in the app
+      21c. append the infoPara to the div
+      22b. append the list to the the div
+
+
+22. list function
+    create a list item for each instrument
+    for each instrument in the family
+    create a list item
+    the text content of which is the instrument
+    append this to the list
+
+
+
+
+18. exports the data for other files to require in
+
+
+
+23.As we create a text element(type) and set the text content(text) for each one
+
+addElement function taking in type of element and the text
+creates the type
+adds the text
+returns the details
+
+
+example of how to refactor on the information element
+
+
+I already refactored the list function

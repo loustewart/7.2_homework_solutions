@@ -1,0 +1,21 @@
+1. require in the data file (lowercase is this is not a constructor)
+2. require in the model
+8. require in the select_view(family_view)
+19. require in the details_view(family_details_view)
+
+3. runs the DOM content and returns a log so we know it's happening
+
+
+
+
+
+9. new instance of the familyView and runs all the bindEvents on them
+    will now have an array in the console log (inspect)
+
+20. new instance of the family and run bind events waiting for the EventListener
+
+
+
+
+
+4. new instance of the instrumentFamilies, passes in the data

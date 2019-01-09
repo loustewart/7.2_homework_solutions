@@ -1,0 +1,26 @@
+data is passed in here
+start with passing in the data (from whatever source)
+need to publish the data here
+ - this is the constructor (like the class)
+
+
+
+6. bindEvents function takes in the (event) - run the events we want to run (as detailed below)
+
+5.run the PubSub publish function give it the channel name and the event
+
+12. subscribes to the data to get the index number (takes in the event)
+  get the index of the detail of the event
+  and returns the all the details of the family selected (from the array)
+14.   now publish the data to the details_view (familySelected from 13)
+
+
+
+
+13. writes the function for 12 to return the data from the array in the data file
+
+
+
+
+
+exports the data so it can be required by other files

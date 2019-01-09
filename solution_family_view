@@ -1,0 +1,34 @@
+7. select_view
+require in the pub sub
+
+10a. pass the element (from the <select> in index.html) see notes on 10 in js
+
+
+
+bindEvents function as before
+Subscribe to PubSub - waits on the data being published by the model
+  expects to have all the data; to populate the dropdown
+  event.detail refers to the PubSub
+
+
+11. need an event handler, when the EventListener hears the change event
+    triggers the event selectedIndex
+    published to the Instrument:family-selected channel
+      could also write PubSub.publish('Instrument:family-selected', event.target.value)
+
+
+10. write the populate function (takes in the instrument family data)
+    // when you take this out, put it in the app (row 9)
+    (need to create an array and use the index to create an array) so .....
+      for every family (using the index)
+        create a new option
+        set the option value as the index
+        the text of the option should be the name of the object (in the properties)
+        add this to the dropdown (children of the original in html file)
+        you'll now have data in the dropdown menu
+
+
+
+
+
+7a. export so we can see it!

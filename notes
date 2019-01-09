@@ -1,0 +1,16 @@
+App (DOM content) loads
+
+EventListener - Subscribe in select_view
+  waiting for the data ready event
+
+Model publishes all the data
+  triggers the event
+
+Select view gets the data
+  populates itself
+
+User input - changes the select
+  get the index number and publish it
+
+index goes to the data model
+  sends the data to the details_view
